@@ -15,6 +15,12 @@
 #define RAISE 2
 #define ADJUST 3
 
+&led_strip
+{
+    chain - length = <29>; // Sofle Using All LEDs
+    // chain-length = <27>; // Corne Using All LEDs
+};
+
 / {
 
    // Activate ADJUST layer by pressing raise and lower
