@@ -18,7 +18,6 @@
 
 &led_strip {
     chain-length = <29>; // Sofle Using All LEDs
-    // chain-length = <27>; // Corne Using All LEDs
 };
 
 / {
